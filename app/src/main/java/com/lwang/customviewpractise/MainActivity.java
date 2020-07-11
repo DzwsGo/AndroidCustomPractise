@@ -5,6 +5,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import com.blankj.utilcode.util.ActivityUtils;
 import com.lwang.customviewpractise.activity.FlowLayoutActivity;
+import com.lwang.customviewpractise.activity.LockPatternActivity;
 import com.lwang.customviewpractise.activity.SlideMenuActivity;
 import com.lwang.customviewpractise.activity.TouchActivity;
 import com.lwang.customviewpractise.activity.VerticalDragActivity;
@@ -31,5 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
   public void verticalDragClick(View view) {
     ActivityUtils.startActivity(VerticalDragActivity.class);
+  }
+
+  public void lockPatternClick(View view) {
+    ActivityUtils.startActivity(LockPatternActivity.class);
   }
 }
